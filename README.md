@@ -105,11 +105,17 @@ These tests helped validate statistically significant differences in operational
 
 
 **Handling Imbalanced Dataset:**
+
 The dataset was highly imbalanced:
+
 CSAT 5 ≈ 70%
+
 CSAT 1–4 underrepresented
+
 Technique Used:
+
 SMOTE (Synthetic Minority Oversampling Technique)
+
 This improved minority class learning and boosted recall & F1-score.
 
 **Machine Learning Models Implemented**
@@ -128,27 +134,35 @@ Hyperparameter tuning attempted
 Performed well but not better than Random Forest
 
 **Final Model Selection**
-Random Forest Classifier selected as final model because:
-Balanced performance across precision, recall, and F1-score
-Handles imbalanced data effectively
-Provides feature importance insights
-Robust and less prone to overfitting
+
+Random Forest Classifier selected as final model because -
+Balanced performance across precision, recall, and F1-score,
+Handles imbalanced data effectively,
+Provides feature importance insights,
+Robust and less prone to overfitting.
 
 **Evaluation Metrics Considered**
-Accuracy
-Precision
-Recall
-F1-Score
+
+Accuracy,
+Precision,
+Recall,
+F1-Score.
 Recall was particularly important to identify dissatisfied customers (low CSAT scores).
 
 **Important Features Identified**
 
 Top influential features:
+
 Sub-category_Return Request
+
 Channel Name (Inbound/Outcall)
+
 Sub-category_Fraudulent User
+
 Tenure Bucket (>90 days)
+
 Agent Shift (Morning/Evening)
+
 These factors significantly impact customer satisfaction.
 
 **Technologies Used**
@@ -157,25 +171,26 @@ Programming Language:
 Python
 
 Libraries:
-NumPy
-Pandas
-Matplotlib
-Seaborn
-Scikit-learn
-imbalanced-learn (SMOTE)
-XGBoost
+NumPy,
+Pandas,
+Matplotlib,
+Seaborn,
+Scikit-learn,
+imbalanced-learn (SMOTE),
+XGBoost.
 
 **Key Business Impact** :
-Early detection of dissatisfied customers
-Improved customer retention
-Better agent performance monitoring
-Data-driven customer support optimization
-Reduced churn risk
+
+Early detection of dissatisfied customers,
+Improved customer retention,
+Better agent performance monitoring,
+Data-driven customer support optimization,
+Reduced churn risk.
 
 **Model Deployment Preparation** :
-Saved best model using Pickle / Joblib
-Reloaded model for sanity prediction check
-Deployment-ready pipeline created
+Saved best model using Pickle / Joblib,
+Reloaded model for sanity prediction check,
+Deployment-ready pipeline created.
 
 **Conclusion**
 
