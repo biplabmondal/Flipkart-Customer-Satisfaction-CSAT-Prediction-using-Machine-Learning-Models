@@ -6,19 +6,19 @@ This project is based on customer support data from Flipkart, one of India’s l
 
 This project focuses on analyzing customer support interaction data (85,907 records, 20 features) to:
 
-1.Identify factors influencing CSAT scores
+1. Identify factors influencing CSAT scores
 
-2.Perform exploratory data analysis (EDA)
+2. Perform exploratory data analysis (EDA)
 
-3.Conduct hypothesis testing
+3. Conduct hypothesis testing
 
-4.Engineer features and handle imbalanced data
+4. Engineer features and handle imbalanced data
 
-5.Build and evaluate multiple machine learning models
+5. Build and evaluate multiple machine learning models
 
-6.Select the best-performing model for final deployment
+6. Select the best-performing model for final deployment
 
-7.The final goal is to support business decision-making by predicting customer satisfaction outcomes in advance.
+7. The final goal is to support business decision-making by predicting customer satisfaction outcomes in advance.
 
 
 **Objectives**
