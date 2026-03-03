@@ -38,32 +38,33 @@ Business Impact - Enable proactive intervention for dissatisfied customers to re
 **Steps to Solve the Problem**
 
 Problem Identification - Flipkart handles a high volume of customer queries daily (returns, cancellations, order issues, product concerns).
+
 The challenge - Understanding what drives CSAT and how to predict dissatisfaction early.
 
 Data Understanding:
 Dataset contains -
-Unique ID
-Channel Name (Inbound / Email / Outcall)
-Category & Sub-category
-Customer Remarks
-Order ID
-Order & Issue timestamps
-Agent Shift
-Tenure Bucket
-Handling Time
-CSAT Score (Target Variable: 1–5)
+Unique ID,
+Channel Name (Inbound / Email / Outcall),
+Category & Sub-category,
+Customer Remarks,
+Order ID,
+Order & Issue timestamps,
+Agent Shift,
+Tenure Bucket,
+Handling Time,
+CSAT Score (Target Variable: 1–5).
 
 Data Preprocessing:
-Missing Value Handling
-Dropped columns with >80% missing values
-Median imputation for numeric features
-Mode imputation for categorical features
+Missing Value Handling,
+Dropped columns with >80% missing values,
+Median imputation for numeric features,
+Mode imputation for categorical features.
 
 Outlier Treatment -
 IQR method (capping extreme values)
 
 Encoding -
-Label Encoding (ordinal features)
+Label Encoding (ordinal features),
 One-Hot Encoding (nominal features)
 
 Feature Scaling - 
