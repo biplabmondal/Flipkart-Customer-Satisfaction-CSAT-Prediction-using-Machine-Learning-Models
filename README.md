@@ -153,6 +153,7 @@ Reloaded model for sanity prediction check
 Deployment-ready pipeline created
 
 **Conclusion**
+
 This project demonstrates how machine learning can be leveraged to predict Customer Satisfaction (CSAT) scores using customer support data.
 By combining robust preprocessing, hypothesis testing, feature engineering, imbalance handling (SMOTE), and ensemble modeling, the final Random Forest model provides actionable insights for improving service quality.
 The solution empowers businesses like Flipkart to proactively improve customer experience, optimize operations, and enhance long-term profitability.
