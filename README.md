@@ -164,7 +164,6 @@ Tenure Bucket (>90 days)
 
 Agent Shift (Morning/Evening)
 
-These factors significantly impact customer satisfaction.
 
 **Technologies Used**
 
