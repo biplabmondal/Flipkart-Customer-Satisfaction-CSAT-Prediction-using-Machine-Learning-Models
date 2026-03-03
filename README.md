@@ -73,21 +73,36 @@ StandardScaler applied to numeric variables
 **Exploratory Data Analysis (EDA)**
 
 Key insights:
+
 Most products purchased were under ₹14,000
+
 Majority of customer interactions were Inbound calls
+
 High CSAT (score 5) dominates dataset (~70%)
+
 Mobile, Electronics, Furniture & Home Appliances were top categories
+
 Handling time differs across communication channels
+
 CSAT trend improved over time
 
+
 **Hypothesis Testing:**
+
 Test 1
+
 H0: Average handling time is same for Email and Call
+
 Test Used: Independent Two-Sample t-test
+
 Test 2
+
 H0: Average CSAT score is same for Day & Night shifts
+
 Test Used: Welch’s t-test
+
 These tests helped validate statistically significant differences in operational factors.
+
 
 **Handling Imbalanced Dataset:**
 The dataset was highly imbalanced:
