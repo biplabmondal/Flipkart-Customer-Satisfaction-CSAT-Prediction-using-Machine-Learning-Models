@@ -28,10 +28,10 @@ CSAT Prediction - Develop a classification model to predict Customer Satisfactio
 Customer Experience Insights - Identify operational and behavioral factors affecting customer satisfaction.
 
 Operational Optimization - Improve customer support efficiency by analyzing:
-Handling time
-Communication channels
-Agent shifts
-Product categories
+Handling time,
+Communication channels,
+Agent shifts,
+Product categories.
 
 Business Impact - Enable proactive intervention for dissatisfied customers to reduce churn risk.
 
