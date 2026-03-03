@@ -4,7 +4,7 @@
 
 This project is based on customer support data from Flipkart, one of India’s leading e-commerce platforms. The objective is to build a predictive machine learning model that can classify Customer Satisfaction (CSAT) scores based on historical customer interaction data. Accurate CSAT prediction enables proactive issue resolution, improves customer retention, and enhances operational efficiency in customer service.
 
-This project focuses on analyzing customer support interaction data (85,907 records, 20 features) to:
+This project focuses on analyzing customer support interaction data (85,907 records, 20 features) to :
 
 1. Identify factors influencing CSAT scores
 
