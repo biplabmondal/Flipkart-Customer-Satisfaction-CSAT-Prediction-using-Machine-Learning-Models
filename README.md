@@ -120,17 +120,11 @@ Recall was particularly important to identify dissatisfied customers (low CSAT s
 **Important Features Identified**
 
 Top influential features:
-
 Sub-category_Return Request
-
 Channel Name (Inbound/Outcall)
-
 Sub-category_Fraudulent User
-
 Tenure Bucket (>90 days)
-
 Agent Shift (Morning/Evening)
-
 These factors significantly impact customer satisfaction.
 
 **Technologies Used**
