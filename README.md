@@ -118,12 +118,19 @@ F1-Score
 Recall was particularly important to identify dissatisfied customers (low CSAT scores).
 
 **Important Features Identified**
+
 Top influential features:
+
 Sub-category_Return Request
+
 Channel Name (Inbound/Outcall)
+
 Sub-category_Fraudulent User
+
 Tenure Bucket (>90 days)
+
 Agent Shift (Morning/Evening)
+
 These factors significantly impact customer satisfaction.
 
 **Technologies Used**
@@ -140,14 +147,14 @@ Scikit-learn
 imbalanced-learn (SMOTE)
 XGBoost
 
-**Key Business Impact**
+**Key Business Impact** :
 Early detection of dissatisfied customers
 Improved customer retention
 Better agent performance monitoring
 Data-driven customer support optimization
 Reduced churn risk
 
-**Model Deployment Preparation**
+**Model Deployment Preparation** :
 Saved best model using Pickle / Joblib
 Reloaded model for sanity prediction check
 Deployment-ready pipeline created
