@@ -184,12 +184,12 @@ XGBoost.
 Early detection of dissatisfied customers,
 Improved customer retention,
 Better agent performance monitoring,
-Data-driven customer support optimization,
+Data-driven customer support optimization, and
 Reduced churn risk.
 
 **Model Deployment Preparation** :
 Saved best model using Pickle / Joblib,
-Reloaded model for sanity prediction check,
+Reloaded model for sanity prediction check, and
 Deployment-ready pipeline created.
 
 **Conclusion**
