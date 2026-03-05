@@ -102,7 +102,7 @@ H0: Average CSAT score is same for Day & Night shifts
 
 Test Used: Welch’s t-test
 
-These tests helped validate statistically significant differences in operational factors.
+These tests helped to validate statistically significant differences in operational factors.
 
 
 **Handling Imbalanced Dataset:**
