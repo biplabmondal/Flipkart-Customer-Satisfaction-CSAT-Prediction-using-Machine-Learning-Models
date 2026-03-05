@@ -12,7 +12,7 @@ This project focuses on analyzing customer support interaction data (85,907 reco
 
 3. Conduct hypothesis testing
 
-4. Engineer features and handle imbalanced data
+4. Features engineering and handle imbalanced data
 
 5. Build and evaluate multiple machine learning models
 
